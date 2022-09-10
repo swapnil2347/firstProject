@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    {% include "library/navbaradmin.html" %}
+    <br>
+    <br>
+
+<h3 class="p-3 mb-2 bg-success text-white" style = 'font-size: 30px;text-align:center;'>Book Issued Successfully !</h3>
+<br><br>
+<div class="row">
+  <div class="col">
+      <a href="issuebook" class="btn btn-primary btn-lg active" style="border-radius: 0%;" role="button" aria-pressed="true">Issue more Book</a><br><br>
+
+  </div>
+  <div class="col-lg-6">
+    <a href="viewissuedbook" class="btn btn-primary btn-lg active" style="border-radius: 0%;" role="button" aria-pressed="true">View Issued Book</a><br><br>
+
+  </div>
+
+</div>
+<br>
+{% include "library/footer.html" %}
+  </body>
+</html>
